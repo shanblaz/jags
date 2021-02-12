@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@500;900&display=swap');
+.white_oval_btn{
+    background: white !important;
+    border-radius: 20px !important;
+}
+#root{
+    height: 100vh;
+    font-family: 'Roboto','Open Sans';
+}
+.blue_btn{
+    color: white !important;
+    border-radius: 7px !important;
+}
+.blue_btn:hover{
+    background: #2f2c73 !important;
+}
+.gradient_vylot{
+    background-image: linear-gradient(#E1E8FF, white);
+}
+.cursor_pointer{
+    cursor: pointer;
+
+}
+.hover_zoom:hover{
+    transform: scale(1.05);
+    transition-duration: .5s;
+}
+.head_text{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 52px;
+    line-height: 61px;
+    color: #FFFFFF;
+}
+.head_img{
+    border-radius: 35px 0px 0px 35px;
+    top: 100px;
+    right: -15px;
+    position: relative;
+    z-index: 999;
+}
+.img-btn{
+    display: flex;
+    margin-bottom: 15px;
+    align-items: center;
+    width: 360px;
+    background: #EBF3FA;
+    box-shadow: inset 4px 4px 16px rgb(111 111 111 / 12%), inset -4px -4px 16px #ffffff;
+    border-radius: 22px;
+}
+.img-btn:hover{
+    box-shadow: 10px 10px 20px rgba(180, 198, 214, 0.46), -10px -10px 20px rgba(255, 255, 255, 0.51);
+    display: flex;
+    margin-bottom: 15px;
+    align-items: center;
+    width: 360px;
+    background: #EBF3FA;
+    border-radius: 22px;
+}
+.blue_3d_btn{
+    background: #2348CB;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.24), -5px -5px 15px #375DE3;
+    border-radius: 11px !important;
+    font-family: Open Sans !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 24px !important;
+    line-height: 33px !important;
+    color: white !important;
+    /* padding: 20px 50px 20px 50px !important; */
+}
+.second_img{
+    position: relative;
+    bottom: -50px;
+    border-radius: 0px 0px 35px 35px;
+    left: 60px;
+    z-index: 999;
+}
+.social_btn{
+    width: 60px;
+    height: 60px;
+    margin-right: 15px;
+    background: #1A40C9;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.12), -5px -5px 15px rgba(31, 74, 231, 0.61);
+    border-radius: 11px;
+}
+/* .white_btn_txt{
+    font-family: Open Sans !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 24px !important;
+    line-height: 33px !important;
+    color: white !important;
+} */
+.white_text{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 34px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+.shadow_line{
+    background: #EBF3FA;
+    box-shadow: inset 4px 4px 10px rgba(0, 0, 0, 0.11), inset 0px 4px 10px #EBF3FA;
+    border-radius: 10px;
+}
+.lets_text{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 54px;
+    color: rgba(0, 0, 0, 0.58);
+}
+.dom_text{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 120px;
+    line-height: 141px;
+    color: #EBF3FA;
+    text-shadow: 4px 4px 15px 0px #999999 41% inset;
+    /* text-shadow: 0px 2px 5px rgba(255, 255, 255, 0.51); */
+    /* box-shadow: inset 10px 10px 20px rgba(180, 198, 214, 0.27), inset -10px -10px 20px rgba(255, 255, 255, 0.51); */
+}
+.clipboard_shadow:hover{
+    background: #EBF3FA;
+    box-shadow: 10px 10px 20px rgba(180, 198, 214, 0.46), -10px -10px 20px rgba(255, 255, 255, 0.51);
+    border-radius: 32px;
+}
+.clipboard_shadow{
+    background: #EBF3FA;
+    box-shadow: inset 10px 10px 20px rgba(180, 198, 214, 0.27), inset -10px -10px 20px rgba(255, 255, 255, 0.51);
+    border-radius: 32px;
+}
+.clipboard_icon{
+    background: #EBF3FA;
+    box-shadow: inset 10px 10px 20px rgba(180, 198, 214, 0.35), inset -10px -10px 20px rgba(255, 255, 255, 0.51);
+    border-radius: 20px;
+}
+.mouseh{
+    cursor: pointer;
+}
+.inner-btn{
+    background: #1A40C9;
+    box-shadow: inset 4px 4px 5px rgba(21, 51, 158, 0.49), inset -3px -3px 5px rgba(64, 98, 222, 0.56);
+    border-radius: 9px;
+}
